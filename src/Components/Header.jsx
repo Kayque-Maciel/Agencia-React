@@ -1,11 +1,6 @@
 import styles from "../Components/Header.module.css"
 import logo from "../Components/Images/viagens.jpg"
 import lupa from "../Components/Images/lupa.png"
-import mala from "../Components/Images/mala.jpg"
-import insta from "../Components/Images/instagram.png"
-import face from "../Components/Images/facebook.png"
-import tik from "../Components/Images/tiktok.png"
-import whats from "../Components/Images/whatsapp.png"
 
 function Header(){
     return(
