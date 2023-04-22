@@ -1,0 +1,28 @@
+.mala{
+    width: 500px;
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+section{
+    display: flex;
+}
+
+.text{
+    width: 50%;
+}
+
+h1{
+    font-size: 50px;
+    color: #12426A;
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+
+section p{
+    text-align: center;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #12426A;
+}
