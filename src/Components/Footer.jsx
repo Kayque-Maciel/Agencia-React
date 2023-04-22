@@ -1,4 +1,4 @@
-import styles from "../Components/Footer.module.css"
+import styles from "../Components/css/Footer.module.css"
 import insta from "../Components/Images/instagram.png"
 import face from "../Components/Images/facebook.png"
 import tik from "../Components/Images/tiktok.png"

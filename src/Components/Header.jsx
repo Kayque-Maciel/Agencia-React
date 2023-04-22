@@ -1,4 +1,4 @@
-import styles from "../Components/Header.module.css"
+import styles from "../Components/css/Header.module.css"
 import logo from "../Components/Images/viagens.jpg"
 import lupa from "../Components/Images/lupa.png"
 

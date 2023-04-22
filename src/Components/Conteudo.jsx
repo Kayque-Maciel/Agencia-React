@@ -1,4 +1,4 @@
-import styles from "../Components/Conteudo.module.css"
+import styles from "../Components/css/Conteudo.module.css"
 import mala from "../Components/Images/mala.jpg"
 
 function Conteudo(){
