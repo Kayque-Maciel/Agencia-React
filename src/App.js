@@ -4,6 +4,7 @@ import Conteudo from "./Components/Conteudo"
 import Footer from "./Components/Footer"
 import Grandcanyon from './Components/Grandcanyon';
 import Escosia from './Components/Escosia';
+import Muralhasdachina from './Components/Muralhasdachina';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
     <Grandcanyon />
 
     <Escosia />
+
+    <Muralhasdachina />
    </>
   );
 }

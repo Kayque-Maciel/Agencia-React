@@ -7,8 +7,8 @@ function Muralhasdachina (){
         <>
         <section className={styles.body}>
             <TextosComponentes 
-            lugar="Grand Canyon"
-            texto="O Grand Canyon fica no estado do Arizona e é cortado pelo não tão tímido assim Rio Colorado, e forma uma paisagem mais imponente e impactante pessoalmente do que qualquer imagem possa representar. Por isso mesmo, ele é um dos passeios mais procurados por quem visita Las Vegas, que fica no estado vizinho, Nevada"
+            lugar="Muralha da China"
+            texto="É a mais longa estrutura já construída pelo homem. Em 1987, a Organização das Nações Unidas (ONU) classificou o monumento como Patrimônio Histórico Mundial, protegendo-o contra os projetos de contrução civil permitidos pela lei chinesas. Tem 21.196 Km de extensão e também é considerada uma das 7 maravilhas do mundo."
             logo_texto={logo}
             />
         </section>
