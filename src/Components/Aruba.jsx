@@ -8,7 +8,7 @@ function Aruba (){
         <section className={styles.body}>
             <TextosComponentes 
             lugar="Aruba"
-            texto="."
+            texto="Praias paradisíacas, mar cristalino, hotéis requintados e programação para toda a família são alguns dos atrativos de Aruba."
             logo_texto={logo}
             />
         </section>
