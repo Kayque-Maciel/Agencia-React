@@ -1,0 +1,32 @@
+.texto_componentes{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.texto_componentes img{
+    height: 55px;
+    width: 55px;
+    margin: auto;
+    margin-top: -15px;
+    padding-bottom: 10px;
+}
+
+.texto_componentes h2{
+    padding: 30px;
+    font-weight: bold;
+    font-size: 23px;
+    padding-bottom: 0px;
+}
+
+.texto_componentes p{
+    padding: 10px;
+    padding-top: 0px;
+}

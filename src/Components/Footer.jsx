@@ -7,7 +7,7 @@ import whats from "../Components/Images/whatsapp.png"
 function Footer(){
     return(
         <>
-        <footer>
+        <footer className={styles.footer}>
             <p>Siga-nos em nossas redes sociais</p>
             
             <div>
