@@ -5,6 +5,7 @@ import Footer from "./Components/Footer"
 import Grandcanyon from './Components/Grandcanyon';
 import Escosia from './Components/Escosia';
 import Muralhasdachina from './Components/Muralhasdachina';
+import Aruba from './Components/Aruba';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
     <Escosia />
 
     <Muralhasdachina />
+
+    <Aruba />
    </>
   );
 }
