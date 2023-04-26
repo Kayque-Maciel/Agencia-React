@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 import styles from "../Components/css/Header.module.css"
 import logo from "../Components/Images/viagens.jpg"
 import lupa from "../Components/Images/lupa.png"
@@ -6,14 +8,14 @@ function Header(){
     return(
         <>
         <header>
-            <img src={logo} alt="logo" className={styles.logo}/>
+            <Link to="/"><img src={logo} alt="logo" className={styles.logo}/></Link>
             <nav>
                 <ul className={styles.navlist}>
-                    <li><a href="/about">Home</a></li>
-                    <li><a href="/contact">Grand Canyon</a></li>
-                    <li><a href="/press">Escócia</a></li>
-                    <li><a href="/press">Muralhas da China</a></li>
-                    <li><a href="/press">Arábia</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/Grandcanyon">Grand Canyon</Link></li>
+                    <li><Link to="/Escocia">Escócia</Link></li>
+                    <li><Link to="/Muralhasdachina">Muralhas da China</Link></li>
+                    <li><Link to="/Aruba">Aruba</Link></li>
                 </ul> 
             </nav>
 

@@ -2,7 +2,6 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: #222222;
-    margin-top: 30px;
 }
 
 footer p{

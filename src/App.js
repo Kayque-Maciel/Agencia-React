@@ -1,3 +1,5 @@
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+
 import './App.css';
 import Header from "./Components/Header"
 import Conteudo from "./Components/Conteudo"
@@ -11,19 +13,18 @@ import Aruba from './Components/Aruba';
 function App() {
   return (
    <>
-    <Header />
 
-    <Conteudo />
-
-    <Footer />
-
-    <Grandcanyon />
-
-    <Escosia />
-
-    <Muralhasdachina />
-
-    <Aruba />
+      <Router>
+        <Header />
+            <Routes>
+              <Route path="/" element={ <Conteudo/> } />
+              <Route path="/Escocia" element={ <Escosia/> } />
+              <Route path="/Grandcanyon" element={ <Grandcanyon/> } />
+              <Route path="/Muralhasdachina" element={ <Muralhasdachina/> } />
+              <Route path="/Aruba" element={ <Aruba/> } />
+            </Routes>
+        <Footer />
+      </Router>
    </>
   );
 }
